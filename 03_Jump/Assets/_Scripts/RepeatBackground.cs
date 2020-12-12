@@ -1,0 +1,28 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+[RequireComponent (typeof(BoxCollider))]
+public class RepeatBackground : MonoBehaviour
+{
+
+    private Vector3 starPos;
+    private float repeatWidht;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+
+        starPos = transform.position;
+        repeatWidht = GetComponent<BoxCollider>().size.x/2;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (starPos.x- transform.position.x >repeatWidht)
+        {
+            transform.position = starPos;
+        }
+    }
+}
