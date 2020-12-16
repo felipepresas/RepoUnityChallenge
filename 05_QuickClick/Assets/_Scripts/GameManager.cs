@@ -10,7 +10,6 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(routine:SpawnTarget());
     }
-
   IEnumerator SpawnTarget()
   {
       while (true)
@@ -19,8 +18,5 @@ public class GameManager : MonoBehaviour
           int idx=Random.Range(0,targetPrefabs.Count);
           Instantiate(targetPrefabs[idx]);
       }
-  }    void Update()
-    {
-        
-    }
+  }    
 }

@@ -37,8 +37,16 @@ public class Target : MonoBehaviour
     {
         return new Vector3(x: Random.Range(-SpawnPosRange, SpawnPosRange), y: -SpawnPosRange);
     }
-    void Update()
+    private void OnMouseDown()
     {
+        Destroy(gameObject);
+    }
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("KillZone"))
+        {
 
+        }
+        Destroy(gameObject);
     }
 }
