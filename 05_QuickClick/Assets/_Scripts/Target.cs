@@ -4,7 +4,10 @@ using UnityEngine;
 public class Target : MonoBehaviour
 {
     private float minForce = 12, maxForce = 16, speedTorque = 10, SpawnPosRange = 4;
+    private GameManager gameManager;
+    public int pointValue;
     private Rigidbody _rigibody;
+    public ParticleSystem explosionParticle;
     // Start is called before the first frame update
     void Start()
     {
@@ -12,6 +15,8 @@ public class Target : MonoBehaviour
         _rigibody.AddForce(RamdonForce(), ForceMode.Impulse);
         _rigibody.AddTorque(x: RamdonTorque(), y: RamdonTorque(), z: RamdonTorque(), ForceMode.Impulse);
         transform.position = RamdomSpawnPos();
+        //gameManager=GameObject.Find("Game Manager").GetComponent<GameManager>();
+        gameManager=GameObject.FindObjectOfType<GameManager>();
     }
     ///<summary>
     ///Genera un vector aleatorio en 3D
@@ -39,14 +44,29 @@ public class Target : MonoBehaviour
     }
     private void OnMouseDown()
     {
+        if (gameManager.gameState==GameManager.GameState.inGame)
+        {
         Destroy(gameObject);
+        Instantiate(explosionParticle,transform.position,explosionParticle.transform.rotation);
+        gameManager.UpdateScore(pointValue);
+         if (gameObject.CompareTag("bad") )
+        {
+            gameManager.GameOver();
+        } 
+        }
     }
     private void OnTriggerEnter(Collider other)
     {
+        
         if (other.CompareTag("KillZone"))
         {
-
+            Destroy(gameObject);
+            if (gameObject.CompareTag("good"))
+            {
+                gameManager.GameOver();
+                //gameManager.UpdateScore(-10);
+            }
         }
-        Destroy(gameObject);
+        
     }
 }

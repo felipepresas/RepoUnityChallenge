@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637435768875836940
-    m_Hash: 1801093583
+      ticks: 637438754774663107
+    m_Hash: 3641648646
   m_LockFileStatus:
     m_FilePath: E:/Developer/Unity/CursoUnity/05_QuickClick/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637435768880452110
-    m_Hash: 14014012
+      ticks: 637438754780217680
+    m_Hash: 1014703696
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
@@ -649,6 +649,85 @@ m_PackageAssets:
         type: 
         url: 
         revision: 
+        path: 
+    - packageId: com.unity.postprocessing@3.0.1
+      testable: 0
+      isDirectDependency: 1
+      version: 3.0.1
+      source: 1
+      resolvedPath: E:\Developer\Unity\CursoUnity\05_QuickClick\Library\PackageCache\com.unity.postprocessing@3.0.1
+      assetPath: Packages/com.unity.postprocessing
+      name: com.unity.postprocessing
+      displayName: Post Processing
+      author:
+        name: 
+        email: 
+        url: 
+      category: 
+      type: 
+      description: The post-processing stack (v2) comes with a collection of effects
+        and image filters you can apply to your cameras to improve the visuals of
+        your games.
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 0.1.7
+        - 0.1.8
+        - 2.0.0-beta
+        - 2.0.1-beta
+        - 2.0.2-preview
+        - 2.0.3-preview
+        - 2.0.5-preview
+        - 2.0.7-preview
+        - 2.0.8-preview
+        - 2.0.9-preview
+        - 2.0.10-preview
+        - 2.0.11-preview
+        - 2.0.12-preview
+        - 2.0.13-preview
+        - 2.0.14-preview
+        - 2.0.15-preview
+        - 2.0.16-preview
+        - 2.0.17-preview
+        - 2.1.0
+        - 2.1.1
+        - 2.1.2
+        - 2.1.3
+        - 2.1.4
+        - 2.1.5
+        - 2.1.6
+        - 2.1.7
+        - 2.2.1
+        - 2.2.2
+        - 2.3.0
+        - 3.0.1
+        compatible:
+        - 2.3.0
+        - 3.0.1
+        verified: 3.0.1
+      dependencies: []
+      resolvedDependencies: []
+      keywords: []
+      registry:
+        id: main
+        name: 
+        url: https://packages.unity.com
+        scopes: []
+        isDefault: 1
+        capabilities: 7
+      hasRegistry: 1
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 637388019030000000
+      documentationUrl: 
+      hasRepository: 1
+      repository:
+        type: git
+        url: git+https://github.com/Unity-Technologies/PostProcessing.git
+        revision: a6dfd0808db2b14acfc32417e8c5c037ff934a28
         path: 
     - packageId: com.unity.purchasing@2.0.3
       testable: 0
