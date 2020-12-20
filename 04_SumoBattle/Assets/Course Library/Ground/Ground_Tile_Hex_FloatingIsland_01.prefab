@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 33339967630197796}
   - component: {fileID: 23564663788724664}
   - component: {fileID: 1403545342}
-  - component: {fileID: 1876625049749847436}
   m_Layer: 0
   m_Name: Ground_Tile_Hex_FloatingIsland_01
   m_TagString: Untagged
@@ -97,16 +96,3 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 8878a37eb67ddac4ead51890a31d6a18, type: 3}
---- !u!65 &1876625049749847436
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1301643505922104}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 5.774557, y: 4.5991006, z: 5.000183}
-  m_Center: {x: -0.0000015497208, y: -2.7310221, z: 0}

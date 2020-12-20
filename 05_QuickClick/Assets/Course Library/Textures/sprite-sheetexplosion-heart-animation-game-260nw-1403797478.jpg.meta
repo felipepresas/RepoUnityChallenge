@@ -1,0 +1,346 @@
+fileFormatVersion: 2
+guid: c40c0525a02fbd64d9e6c85314fd682f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7466118333366527898
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_0
+  - first:
+      213: 565653170269478109
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_1
+  - first:
+      213: 6607455188447617636
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_2
+  - first:
+      213: -3914021466624033481
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_3
+  - first:
+      213: -5496001862244744447
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_4
+  - first:
+      213: 8548916958163358228
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_5
+  - first:
+      213: -3404717929974166795
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_6
+  - first:
+      213: -3560737054009627550
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_7
+  - first:
+      213: -7116999134209584439
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_8
+  - first:
+      213: -6192203347327562861
+    second: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_9
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 162
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97e757211bfc9760800000000000000
+      internalID: 7466118333366527898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_1
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 163
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc5cf7bf8a99d700800000000000000
+      internalID: 565653170269478109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_2
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 163
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4626bb07c7562bb50800000000000000
+      internalID: 6607455188447617636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_3
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 162
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73dfe96a63a9ea9c0800000000000000
+      internalID: -3914021466624033481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_4
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 162
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1034404ec674ab3b0800000000000000
+      internalID: -5496001862244744447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_5
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 70
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 412d3a9edaad3a670800000000000000
+      internalID: 8548916958163358228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_6
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fa8c77e41300c0d0800000000000000
+      internalID: -3404717929974166795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 69
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c6f25d388b59ec0800000000000000
+      internalID: -3560737054009627550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_8
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 70
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c2dca2bef65b3d90800000000000000
+      internalID: -7116999134209584439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sprite-sheetexplosion-heart-animation-game-260nw-1403797478_9
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 68
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39b4e810ddfd01aa0800000000000000
+      internalID: -6192203347327562861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

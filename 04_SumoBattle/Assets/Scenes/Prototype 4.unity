@@ -229,11 +229,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4309046691238786623, guid: de8eb796b050f3d4d89c6896ad258bd7,
         type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.6077
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309046691238786623, guid: de8eb796b050f3d4d89c6896ad258bd7,
-        type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.1954942
       objectReference: {fileID: 0}
@@ -705,21 +700,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1876625049749847436, guid: 961be46ca9a355943ae3f65c47741bb0,
-        type: 3}
-      propertyPath: m_Size.x
-      value: 5.797088
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876625049749847436, guid: 961be46ca9a355943ae3f65c47741bb0,
-        type: 3}
-      propertyPath: m_Center.x
-      value: -0.011263466
-      objectReference: {fileID: 0}
-    - target: {fileID: 1876625049749847436, guid: 961be46ca9a355943ae3f65c47741bb0,
-        type: 3}
-      propertyPath: m_Center.y
-      value: -2.7310224
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 961be46ca9a355943ae3f65c47741bb0, type: 3}
 --- !u!1 &1455417283
@@ -894,12 +874,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cf9c9587e45189b4f89c5e9f66960a3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forcetranslate: 10
+  forcetranslate: 12.05
   forwardInput: 0
   focalPoint: {fileID: 1315751253}
   hasPowerUp: 0
-  powerUpForce: 70
-  powerUpTime: 7
+  powerUpForce: 105.93
+  powerUpTime: 7.9
   powerUpIndicators:
   - {fileID: 1631507450}
   - {fileID: 1671920705}

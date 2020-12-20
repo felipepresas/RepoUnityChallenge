@@ -1,0 +1,466 @@
+fileFormatVersion: 2
+guid: 54e5196d8dac6d34f870fc238f7735fa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8740678262736653256
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_0
+  - first:
+      213: -3588660988122395026
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_1
+  - first:
+      213: -1076285243313243672
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_2
+  - first:
+      213: -3896016192800185984
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_3
+  - first:
+      213: -4975664277527591930
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_4
+  - first:
+      213: 1876095305794725076
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_5
+  - first:
+      213: -8660700488525315282
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_6
+  - first:
+      213: -6489640812541852892
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_7
+  - first:
+      213: -6200300016625950477
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_8
+  - first:
+      213: -7985499710087365392
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_9
+  - first:
+      213: 9084839748715173873
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_10
+  - first:
+      213: 2801874572134361194
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_11
+  - first:
+      213: -1867141302251504406
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_12
+  - first:
+      213: 5411501228375482513
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_13
+  - first:
+      213: 7492305365884071894
+    second: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_14
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 4
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 132.66666
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb8562e1902d4970800000000000000
+      internalID: 8740678262736653256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_1
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 132.66666
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e89a748d3823ec0800000000000000
+      internalID: -3588660988122395026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 132.66666
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e9b15b06444011f0800000000000000
+      internalID: -1076285243313243672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 132.66666
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 081a9f42ae19ee9c0800000000000000
+      internalID: -3896016192800185984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_4
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 132.66666
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6040e58a3b3e2fab0800000000000000
+      internalID: -4975664277527591930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 66.666664
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d42caa9dba390a10800000000000000
+      internalID: 1876095305794725076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_6
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 66.666664
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e238563cac20fc780800000000000000
+      internalID: -8660700488525315282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_7
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 66.666664
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 423c098801a20f5a0800000000000000
+      internalID: -6489640812541852892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_8
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 66.666664
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f069284cfb14f9a0800000000000000
+      internalID: -6200300016625950477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 66.666664
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fcf14a925ecd2190800000000000000
+      internalID: -7985499710087365392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.6666641
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f7548f2e95d31e70800000000000000
+      internalID: 9084839748715173873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 0.6666641
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a68a441141242e620800000000000000
+      internalID: 2801874572134361194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_12
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 0.6666641
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aecb6ddc0e49616e0800000000000000
+      internalID: -1867141302251504406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_13
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 0.6666641
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19029e222b3891b40800000000000000
+      internalID: 5411501228375482513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: png-transparent-sprite-animation-2d-computer-graphics-texture-atlas-sprite-game-3d-computer-graphics-vertebrate-thumbnail_14
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0.6666641
+        width: 72
+        height: 66.333336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfe54ac8040af760800000000000000
+      internalID: 7492305365884071894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 649fd36d1aa47d44ca0e65c9ceaf036c
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
