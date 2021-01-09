@@ -1,28 +1,46 @@
+#if UNITY_IOS || UNITY_ANDROID
+#define USING_MOBILE
+#endif
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class PlayerController : MonoBehaviour
 {
     private Animator _animator;
-    private Quaternion rotation=Quaternion.identity;
+    private Quaternion rotation = Quaternion.identity;
     private Rigidbody _rigibody;
     private AudioSource _audioSourse;
     private Vector3 movement;
     public float turnSpeed;
-    // Start is called before the first frame update
+    
     void Start()
     {
         _animator = GetComponent<Animator>();
         _rigibody = GetComponent<Rigidbody>();
-        _audioSourse=GetComponent<AudioSource>();
+        _audioSourse = GetComponent<AudioSource>();
     }
 
-    // Update is called once per frame
     void FixedUpdate()
     {
+#if USING_MOBILE
+        float horizontal = Input.GetAxis("Mouse X");
+        float vertical = Input.GetAxis("Mouse Y");
+        if (Input.touchCount>0)
+        {
+            horizontal=Input.touches[0].deltaPosition.x;
+            vertical=Input.touches[0].deltaPosition.y;
+        }
+
+#else
         float horizontal = Input.GetAxis("Horizontal");
         float vertical = Input.GetAxis("Vertical");
+#endif
+
+
         movement.Set(horizontal, 0, vertical);
         movement.Normalize();
 
@@ -31,7 +49,7 @@ public class PlayerController : MonoBehaviour
         bool isWalking = hasHorizontalInput || hasVerticaltalInput;
 
         _animator.SetBool("IsWalk", isWalking);
-        
+
         if (isWalking)
         {
             if (!_audioSourse.isPlaying)
