@@ -15,6 +15,30 @@ MonoBehaviour:
   m_Keys:
   - __PanelContainer__rootVisualContainer__002515620d98f7841ade2a14c1f2b29d__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
   - __PanelContainer__rootVisualContainer__002515620d98f7841ade2a14c1f2b29d__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__f54242b8067f0b84c996b0080568a332__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__f54242b8067f0b84c996b0080568a332__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__0e30fe4948a187c45b65ef9b98fa1c6c__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__0e30fe4948a187c45b65ef9b98fa1c6c__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__1e1c35e2753a1fb4ebee266c654706d4__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__1e1c35e2753a1fb4ebee266c654706d4__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__d362dfcccecb84f4ab95be0d97aec43a__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__d362dfcccecb84f4ab95be0d97aec43a__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__a6bcc35ccbfbeba4e8869d84226b177d__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__a6bcc35ccbfbeba4e8869d84226b177d__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
+  - __PanelContainer__rootVisualContainer__225e2454855f9fd4388769fa82c74583__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedViewTransform
+  - __PanelContainer__rootVisualContainer__225e2454855f9fd4388769fa82c74583__MaterialGraphView__UnityEditor.Experimental.GraphView.GraphView+PersistedSelection
   m_Values:
-  - '{"position":{"x":432.79998779296877,"y":454.3999938964844,"z":0.0},"scale":{"x":0.7561436891555786,"y":0.7561436891555786,"z":1.0}}'
-  - '{"m_Version":18,"m_SelectedElementsArray":[]}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{}'
+  - '{"position":{"x":510.3999938964844,"y":437.6000061035156,"z":0.0},"scale":{"x":0.6103723645210266,"y":0.6103723645210266,"z":1.0}}'
+  - '{"m_Version":0,"m_SelectedElementsArray":[]}'
