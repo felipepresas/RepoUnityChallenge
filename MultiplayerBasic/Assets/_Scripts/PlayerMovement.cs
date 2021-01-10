@@ -23,18 +23,18 @@ public class PlayerMovement : NetworkBehaviour
 
     public override void OnStartAuthority()
     {
-        base.OnStartAuthority();
         mainCamera = Camera.main;
     }
     [ClientCallback]
     private void update()
     {
         if (!hasAuthority) { return; }
+
         if (!Input.GetMouseButtonDown(1)) { return; }
 
-        mainCamera.ScreenPointToRay(Input.mousePosition);
+        Ray ray = mainCamera.ScreenPointToRay(Input.mousePosition);
 
-        if (!Physics.Raycast(ray , out RaycastHit, Mathf.Infinity)) { return; }
+        if (!Physics.Raycast(ray, out RaycastHit hit, Mathf.Infinity)) { return; }
 
         CmdMove(hit.point);
     }
