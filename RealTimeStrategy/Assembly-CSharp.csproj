@@ -36,11 +36,13 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\NetWorking\RTSNetworkManager.cs" />
      <Compile Include="Assets\Scripts\Units\UnitMovement.cs" />
-     <Compile Include="Assets\Scripts\Buildings\UnitSpawner.cs" />
-     <Compile Include="Assets\Scripts\Units\Unit.cs" />
      <Compile Include="Assets\Scripts\Units\UnitSelectionHandle.cs" />
+     <Compile Include="Assets\Scripts\Buildings\UnitSpawner.cs" />
+     <Compile Include="Assets\Scripts\NetWorking\RTSNetworkManager.cs" />
+     <Compile Include="Assets\Scripts\Units\Unit.cs" />
+     <Compile Include="Assets\Scripts\Units\UnitCommandGiver.cs" />
+     <Compile Include="Assets\Scripts\NetWorking\RTSPlayer.cs" />
      <None Include="Assets\Mirror\Version.txt" />
      <None Include="Assets\Mirror\Readme.txt" />
      <None Include="Assets\Mirror\Notice.txt" />
@@ -645,6 +647,9 @@
     <Reference Include="Unity.Searcher.Editor">
         <HintPath>E:/Developer/Unity/CursoUnity/RealTimeStrategy/Library/ScriptAssemblies/Unity.Searcher.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+        <HintPath>E:/Developer/Unity/CursoUnity/RealTimeStrategy/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Runtime">
         <HintPath>E:/Developer/Unity/CursoUnity/RealTimeStrategy/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
     </Reference>
@@ -701,9 +706,6 @@
     </Reference>
     <Reference Include="Unity.RenderPipelines.Core.Editor">
         <HintPath>E:/Developer/Unity/CursoUnity/RealTimeStrategy/Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-        <HintPath>E:/Developer/Unity/CursoUnity/RealTimeStrategy/Library/ScriptAssemblies/Unity.2D.Sprite.Editor.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
