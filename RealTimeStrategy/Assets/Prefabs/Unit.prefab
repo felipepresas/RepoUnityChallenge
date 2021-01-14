@@ -94,9 +94,11 @@ GameObject:
   - component: {fileID: 8598906704259007156}
   - component: {fileID: 6323017455502406352}
   - component: {fileID: -8146568903594694327}
+  - component: {fileID: 4007325518205599592}
   - component: {fileID: -1817663366394860102}
   - component: {fileID: 7381875818152905072}
-  - component: {fileID: 4007325518205599592}
+  - component: {fileID: -1578077439632063042}
+  - component: {fileID: 6965411391393028663}
   m_Layer: 0
   m_Name: Unit
   m_TagString: Untagged
@@ -112,11 +114,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6734208762090220527}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2003729, y: 0.45120308, z: -1.6598289}
+  m_LocalPosition: {x: 1.2003729, y: 0, z: -1.6598289}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 7570945056307492419}
   - {fileID: 3765682740568112110}
+  - {fileID: 3249867764289006585}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -176,6 +179,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!65 &4007325518205599592
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6734208762090220527}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.7716455, y: 2.3013937, z: 2.87007}
+  m_Center: {x: 0.010936081, y: 1.164693, z: 0.19138145}
 --- !u!114 &-1817663366394860102
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,6 +207,8 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   agent: {fileID: -8146568903594694327}
+  targeter: {fileID: 6965411391393028663}
+  chaseRange: 10
 --- !u!114 &7381875818152905072
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -206,6 +224,7 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   unitMovement: {fileID: -1817663366394860102}
+  targeter: {fileID: 6965411391393028663}
   OnSelected:
     m_PersistentCalls:
       m_Calls:
@@ -236,19 +255,65 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
---- !u!65 &4007325518205599592
-BoxCollider:
+--- !u!114 &-1578077439632063042
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6734208762090220527}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 2.7716455, y: 2.3013937, z: 2.87007}
-  m_Center: {x: 0.010936081, y: 1.164693, z: 0.19138145}
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9708cea8e1e9e6548b7dcef02408b4ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+  aimAtPoint: {fileID: 3249867764289006585}
+--- !u!114 &6965411391393028663
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6734208762090220527}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4809af07b86883c4dacd5d3584a29df8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  syncMode: 0
+  syncInterval: 0.1
+--- !u!1 &7912794281970076561
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3249867764289006585}
+  m_Layer: 0
+  m_Name: AimAtPoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3249867764289006585
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7912794281970076561}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 1.25, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2587034213548621100}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &7970209259625927080
 PrefabInstance:
   m_ObjectHideFlags: 0

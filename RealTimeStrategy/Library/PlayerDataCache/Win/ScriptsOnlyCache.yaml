@@ -3,6 +3,8 @@ ScriptsOnlyBuild:
     Assembly-CSharp.dll:
     - RTSNetworkManager
     - RTSPlayer
+    - Targetable
+    - Targeter
     - Unit
     - UnitCommandGiver
     - UnitMovement
@@ -290,6 +292,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6466}
     - Class: 114
       Script: {instanceID: 6772}
+    - Class: 114
+      Script: {instanceID: 20000}
+    - Class: 114
+      Script: {instanceID: 20008}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -439,7 +445,7 @@ ScriptsOnlyBuild:
     className: CinemachineVolumeSettings
   - hash:
       serializedVersion: 2
-      Hash: db4974d1c0dc8dd4e8991eda400257bd
+      Hash: 946539c2b07b729a17511c580c25648b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UnitMovement
@@ -2017,7 +2023,7 @@ ScriptsOnlyBuild:
     className: RemoteInputPlayerConnection
   - hash:
       serializedVersion: 2
-      Hash: 7e106a6076122a3f5a7799c36d4ceb39
+      Hash: 09e45cd81ce911660467d0042187626b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: Unit
@@ -2051,6 +2057,18 @@ ScriptsOnlyBuild:
     assemblyName: Mirror.Examples.dll
     namespaceName: Mirror.Examples.MultipleAdditiveScenes
     className: Spawner
+  - hash:
+      serializedVersion: 2
+      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Targeter
+  - hash:
+      serializedVersion: 2
+      Hash: cb3d51a51abb534d5681968039be290d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Targetable
   platform: 5
   scenePathNames:
   - Assets/Scenes/Scene_Menu.unity
