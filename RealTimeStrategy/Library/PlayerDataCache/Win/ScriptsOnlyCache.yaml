@@ -7,11 +7,15 @@ ScriptsOnlyBuild:
     - Targeter
     - Unit
     - UnitCommandGiver
+    - UnitFiring
     - UnitMovement
+    - UnitProjectile
     - UnitSelectionHandle
     - UnitSpawner
     Mirror.Components.dll:
     - Mirror.NetworkTransform
+    Mirror.Editor.dll:
+    - Mirror.NetworkBehaviourInspector
     Mirror.dll:
     - Mirror.NetworkIdentity
     - Mirror.NetworkManagerHUD
@@ -132,25 +136,25 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2150}
     - Class: 114
-      Script: {instanceID: 3256}
+      Script: {instanceID: 3258}
     - Class: 114
-      Script: {instanceID: 3382}
+      Script: {instanceID: 3384}
     - Class: 114
-      Script: {instanceID: 4170}
+      Script: {instanceID: 4172}
     - Class: 114
-      Script: {instanceID: 4476}
+      Script: {instanceID: 4478}
     - Class: 114
-      Script: {instanceID: 5022}
+      Script: {instanceID: 5024}
     - Class: 114
-      Script: {instanceID: 5536}
+      Script: {instanceID: 5538}
     - Class: 114
-      Script: {instanceID: 5648}
+      Script: {instanceID: 5650}
     - Class: 114
-      Script: {instanceID: 5784}
+      Script: {instanceID: 5786}
     - Class: 114
-      Script: {instanceID: 6298}
+      Script: {instanceID: 6302}
     - Class: 114
-      Script: {instanceID: 6416}
+      Script: {instanceID: 6420}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -187,6 +191,8 @@ ScriptsOnlyBuild:
     - Class: 43
       Script: {instanceID: 0}
     - Class: 48
+      Script: {instanceID: 0}
+    - Class: 54
       Script: {instanceID: 0}
     - Class: 65
       Script: {instanceID: 0}
@@ -235,70 +241,76 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 2462}
     - Class: 114
-      Script: {instanceID: 2750}
+      Script: {instanceID: 2614}
     - Class: 114
-      Script: {instanceID: 2874}
+      Script: {instanceID: 2752}
     - Class: 114
-      Script: {instanceID: 2912}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3162}
+      Script: {instanceID: 2914}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3164}
     - Class: 114
-      Script: {instanceID: 3456}
+      Script: {instanceID: 3304}
     - Class: 114
-      Script: {instanceID: 3464}
+      Script: {instanceID: 3458}
     - Class: 114
-      Script: {instanceID: 3618}
+      Script: {instanceID: 3466}
     - Class: 114
-      Script: {instanceID: 3674}
+      Script: {instanceID: 3620}
     - Class: 114
-      Script: {instanceID: 3748}
+      Script: {instanceID: 3676}
     - Class: 114
-      Script: {instanceID: 4034}
+      Script: {instanceID: 3750}
     - Class: 114
-      Script: {instanceID: 4260}
+      Script: {instanceID: 4036}
     - Class: 114
-      Script: {instanceID: 4304}
+      Script: {instanceID: 4262}
     - Class: 114
-      Script: {instanceID: 4456}
+      Script: {instanceID: 4306}
     - Class: 114
-      Script: {instanceID: 4460}
+      Script: {instanceID: 4458}
     - Class: 114
-      Script: {instanceID: 4664}
+      Script: {instanceID: 4462}
     - Class: 114
-      Script: {instanceID: 4840}
+      Script: {instanceID: 4666}
     - Class: 114
-      Script: {instanceID: 5130}
+      Script: {instanceID: 4842}
     - Class: 114
-      Script: {instanceID: 5302}
+      Script: {instanceID: 5132}
     - Class: 114
-      Script: {instanceID: 5510}
+      Script: {instanceID: 5304}
     - Class: 114
-      Script: {instanceID: 5590}
+      Script: {instanceID: 5512}
     - Class: 114
-      Script: {instanceID: 5868}
+      Script: {instanceID: 5592}
     - Class: 114
-      Script: {instanceID: 6002}
+      Script: {instanceID: 5870}
     - Class: 114
-      Script: {instanceID: 6050}
+      Script: {instanceID: 5948}
     - Class: 114
-      Script: {instanceID: 6126}
+      Script: {instanceID: 6006}
     - Class: 114
-      Script: {instanceID: 6182}
+      Script: {instanceID: 6054}
     - Class: 114
-      Script: {instanceID: 6320}
+      Script: {instanceID: 6130}
     - Class: 114
-      Script: {instanceID: 6466}
+      Script: {instanceID: 6186}
     - Class: 114
-      Script: {instanceID: 6772}
+      Script: {instanceID: 6324}
     - Class: 114
-      Script: {instanceID: 20000}
+      Script: {instanceID: 6470}
     - Class: 114
-      Script: {instanceID: 20008}
+      Script: {instanceID: 6776}
+    - Class: 114
+      Script: {instanceID: 19472}
+    - Class: 114
+      Script: {instanceID: 21024}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -743,6 +755,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: AdvancedDropdownWindow
+  - hash:
+      serializedVersion: 2
+      Hash: cb3d51a51abb534d5681968039be290d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Targetable
   - hash:
       serializedVersion: 2
       Hash: ad425eb6c32a6f6977115fef236ef55f
@@ -1717,6 +1735,12 @@ ScriptsOnlyBuild:
     className: MultiplayerEventSystem
   - hash:
       serializedVersion: 2
+      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Targeter
+  - hash:
+      serializedVersion: 2
       Hash: e87f50864f8a979f1228e8c69bd62658
     assemblyName: Mirror.Examples.Cloud.Pong.dll
     namespaceName: Mirror.Cloud.Examples.Pong
@@ -2059,16 +2083,16 @@ ScriptsOnlyBuild:
     className: Spawner
   - hash:
       serializedVersion: 2
-      Hash: 6fd2bb55b3ee5edb6040a1c5bccd0e07
+      Hash: af48a789b1b7f4b1ee7e8472a0c5d783
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Targeter
+    className: UnitFiring
   - hash:
       serializedVersion: 2
-      Hash: cb3d51a51abb534d5681968039be290d
+      Hash: 086b3d0380114e99e006058a03f45b45
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: Targetable
+    className: UnitProjectile
   platform: 5
   scenePathNames:
   - Assets/Scenes/Scene_Menu.unity
